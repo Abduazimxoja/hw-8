@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+   <link rel="stylesheet" href="css/style.css">
+   <title>Hw-8</title>
+</head>
+
+<body>
+   <div class="wrap fx--gap">
+      <header class="header">
+         <nav class="header__menu">
+            <ul class="header__list">
+               <li class="header__item"><a href="#" class="header__link">
+                     <p>setting</p> <i class="fa fa-regular fa-star"></i>
+                  </a></li>
+               <li class="header__item"><a href="#" class="header__link">
+                     <p>account</p><i class="fa fa-regular fa-user"></i>
+                  </a></li>
+               <li class="header__item"><a href="#" class="header__link">
+                     <p>messages</p><i class="fa fa-regular fa-envelope"></i><span class="header__indicator"></span>
+                  </a></li>
+               <li class="header__item"><a href="#" class="header__link">
+                     <p>favorites</p><i class="fa fa-regular fa-gear"></i>
+                  </a></li>
+            </ul>
+            <button class="login">
+               <div class="login__info">
+                  <p class="login__me">me</p>
+                  <i class="login__arrow fa fa-solid fa-angle-down"></i>
+               </div>
+               <div class="login__photo"></div>
+            </button>
+         </nav>
+      </header>
+      <main class="body fx--gap">
+         <section class="sidebar fx--1">
+            <nav class="box">
+               <div class="box__head">
+                  <h3 class="box__title">menu box</h3>
+               </div>
+               <ul class="box__list">
+                  <li class="box__item"><a href="#" class="box__link"><i
+                           class="box__icon fa fa-regular fa-envelope"></i>
+                        <p class="box__text">Messages</p>
+                     </a>
+                     <p class="box__counter">24</p>
+                  </li>
+                  <li class="box__item"><a href="#" class="box__link"><i
+                           class="box__icon fa fa-regular fa-paper-plane"></i>
+                        <p class="box__text">Invites</p>
+                     </a>
+                     <p class="box__counter">3</p>
+                  </li>
+                  <li class="box__item"><a href="#" class="box__link"><i class="box__icon fa fa-calendar-o"></i>
+                        <p class="box__text">Events</p>
+                     </a>
+                     <p class="box__counter">5</p>
+                  </li>
+                  <li class="box__item"><a href="#" class="box__link"><i class="box__icon fa fa-regular fa-gear"></i>
+                        <p class="box__text">Account Settings</p>
+                     </a></li>
+                  <li class="box__item"><a href="#" class="box__link"><i class="box__icon fa fa-line-chart"></i>
+                        <p class="box__text">Statistics</p>
+                     </a></li>
+               </ul>
+            </nav>
+            <div class="audience">
+               <h3 class="audience__title">OS AUDIENCE STATS</h3>
+               <div class="audience__date">
+                  <div class="audience__donut">
+                     <p class="audience__month">june</p>
+                     <p class="audience__year">2013</p>
+                  </div>
+               </div>
+               <ul class="audience__list">
+                  <li class="audience__item bsh--red">
+                     <p class="audience__os text--gray">ios</p>
+                     <p class="audience__percent">21%</p>
+                  </li>
+                  <li class="audience__item bsh--green">
+                     <p class="audience__os text--gray">mac</p>
+                     <p class="audience__percent">48%</p>
+                  </li>
+                  <li class="audience__item bsh--yellow">
+                     <p class="audience__os text--gray">linux</p>
+                     <p class="audience__percent">9%</p>
+                  </li>
+                  <li class="audience__item bsh--blue">
+                     <p class="audience__os text--gray">win</p>
+                     <p class="audience__percent">32%</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="diagram">
+               <div class="diagram__graph"></div>
+               <div class="diagram__inner">
+                  <div class="diagram__calendar">
+                     <button class="diagram__date">week</button>
+                     <button class="diagram__date diagram--active">month</button>
+                     <button class="diagram__date">year</button>
+                  </div>
+                  <ul class="diagram__list">
+                     <li class="diagram__item">
+                        <p class="diagram__pre">apr <span class="diagram__year text--gray">2013</span></p>
+                        <p class="diagram__precent"><span class="text--red">+</span>21%</p>
+                     </li>
+                     <li class="diagram__item">
+                        <p class="diagram__pre">may <span class="diagram__year text--gray">2013</span></p>
+                        <p class="diagram__precent"><span class="text--red">+</span>48%</p>
+                     </li>
+                     <li class="diagram__item">
+                        <p class="diagram__pre">jun <span class="diagram__year text--gray">2013</span></p>
+                        <p class="diagram__precent"><span class="text--red">+</span>35%</p>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- <video src="" class="video"></video> -->
+            <div class="social">
+               <ul class="social__list">
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <i class="fa fa-brands fa-facebook-f"></i>
+                        <p class="social__subscribe">248k</p>
+                     </a>
+                  </li>
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <i class="fa fa-brands fa-twitter"></i>
+                        <p class="social__subscribe">30k</p>
+                     </a>
+                  </li>
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <i class="fa fa-google-plus"></i>
+                        <p class="social__subscribe">124k</p>
+                     </a>
+                  </li>
+                  <li class="social__item">
+                     <a href="#" class="social__link">
+                        <i class="fa fa-regular fa-envelope"></i>
+                        <p class="social__subscribe">89k</p>
+                     </a>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="section fx--1">
+            <div class="news">
+               <a href="#" class="news__plus"><i class="fa fa-plus"></i></a>
+               <div class="news__photo"><img src="img/photo/Profile image.svg" alt=""></div>
+               <div class="news__text">
+                  <h4 class="news__title">Anne Hathaway</h4>
+                  <p class="news__subtitle text--gray">Lorem ipsum dolor sit amet consectetuer adipiscing</p>
+               </div>
+               <ul class="news__list">
+                  <li class="news__item bsh--red">
+                     <i class="fa fa-comment-o"></i>
+                     <p class="news__counter">23</p>
+                  </li>
+                  <li class="news__item bsh--green">
+                     <i class="fa fa-regular fa-eye"></i>
+                     <p class="news__counter">831</p>
+                  </li>
+                  <li class="news__item bsh--yellow">
+                     <i class="fa fa-heart-o"></i>
+                     <p class="news__counter">49</p>
+                  </li>
+               </ul>
+            </div>
+            <div class="weather">
+               <div class="weather__header">
+                  <div class="weather__terrain">
+                     <h4 class="weather__city"><i class="fa fa-map-marker"></i> CLUJ-NAPOCA / ro</h4>
+                  </div>
+                  <div class="weather__today">
+                     <p class="weather__subtitle">FRI 29/06</p>
+                     <h2 class="weather__title">24°<i class="fa fa-regular fa-cloud-sun"></i></h2>
+                  </div>
+               </div>
+               <ul class="weather__list">
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="weather__week">sat </p>
+                        <p class="text--gray weather__date"> 29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="text--red weather__week">sat</p>
+                        <p class="text--gray weather__date">29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="weather__week">sat </p>
+                        <p class="text--gray weather__date"> 29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="weather__week">sat </p>
+                        <p class="text--gray weather__date"> 29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="weather__week">sat </p>
+                        <p class="text--gray weather__date"> 29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+                  <li class="weather__item">
+                     <div class="weather__inner">
+                        <p class="weather__week">sat </p>
+                        <p class="text--gray weather__date"> 29/06</p>
+                     </div>
+                     <div class="weather__degrees">
+                        <p class="weather__celsius">25° </p>
+                        <i class="fa fa-regular fa-cloud-sun"></i>
+                     </div>
+                  </li>
+               </ul>
+            </div>
+         </section>
+         <section class="widget fx--1">
+            <div class="register">
+               <h3 class="register__title">Join the newsletter</h3>
+               <form action="" class="register__form">
+                  <input class="register__input" type="email" name="" id="" placeholder="yourname@gmail.com">
+                  <button class="register__btn" type="submit">subscribe</button>
+               </form>
+            </div>
+            <div class="singin">
+               <div class="singin__title"></div>
+               <form action="" class="singin__form">
+                  <input type="email" name="" id="" class="singin__input" placeholder="yourname@gmail.com">
+                  <input type="password" name="" id="" class="singin__password" placeholder="Password">
+                  <button type="submit" class="singin__btn">SIGN IN</button>
+               </form>
+               <a href="#" class="singin__link text--gray">Forgot Password?</a>
+               <a href="#" class="singin__facebook"><i class="fa fa-brands fa-facebook"></i> Sign in with Facebook</a>
+            </div>
+            <div class="download">
+               <div class="download__block">
+                  <div class="download__indicator--dd"><div class="download__indicator--bb"></div></div>
+                  <div class="download__text">
+                     <p class="download__excerpt"><i class="fa fa-regular fa-cloud-arrow-down"></i>Downloading...</p>
+                     <p class="download__percent">81%</p>
+                  </div>
+               </div>
+               <div class="download__block">
+                  <div class="download__indicator--du"><div class="download__indicator--bb"></div></div>
+                  <div class="download__text">
+                     <p class="download__excerpt"><i class="fa fa-regular fa-cloud-arrow-up"></i>Uploading...<p>
+                     <p class="download__percent">43%</p>
+                  </div>
+               </div>
+            </div>
+         </section>
+      </main>
+   </div>
+   <script src="https://kit.fontawesome.com/cc98946d86.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+
+
+<!-- 
+   <i class="fa fa-regular fa-user"></i>
+   <i class="fa fa-regular fa-circle-chevron-left"></i>
+   <i class="fa fa-solid   fa-angle-down"></i>
+   <i class="fa fa-regular fa-comment"></i>
+   <i class="fa fa-regular fa-cloud-arrow-down"></i>
+   <i class="fa fa-regular fa-cloud-arrow-up"></i>
+   <i class="fa fa-regular fa-eye"></i>
+   <i class="fa fa-regular fa-star"></i>
+   <i class="fa fa-regular fa-heart"></i>
+   <i class="fa fa-regular fa-location-dot"></i>
+   <i class="fa fa-regular fa-lock-keyhole"></i>
+   <i class="fa-regular fa-circle-plus"></i>
+
+   меню
+   Messages:   <i class="fa fa-regular fa-envelope"></i>
+   air:        <i class="fa fa-regular fa-paper-plane"></i>
+   calendar:   <i class="fa fa-regular fa-calendar-days"></i>
+   setting:    <i class="fa fa-regular fa-gear"></i>
+   statistics: <i class="fa fa-regular fa-chart-line"></i>
+
+   соцсети
+   <i class="fa fa-brands fa-facebook-f"></i>
+   <i class="fa fa-brands fa-facebook"></i>
+   <i class="fa fa-google-plus"></i>
+   <i class="fa fa-brands fa-twitter"></i>
+
+   пагода
+   <i class="fa fa-regular fa-clouds"></i>
+   <i class="fa fa-regular fa-cloud-sun"></i>
+   <i class="fa fa-regular fa-sun-bright"></i>
+
+   outline
+ -->
